@@ -21,7 +21,7 @@ A simple FiveM resource to check for missing item images in ox_inventory.
 
 1. Download the resource
 2. Extract to your resources folder
-3. Add `ensure ox-itemimagecheck` to your server.cfg
+3. Add `ensure image-checker` to your server.cfg
 4. Restart your server
 
 ## Usage
@@ -52,7 +52,7 @@ The command also creates a report file named `missing_images_YYYY-MM-DD_HH-MM-SS
 ## File Structure
 
 ```
-ox-itemimagecheck/
+image-checker/
 ├── fxmanifest.lua
 ├── s_checkimages.lua
 └── README.md
